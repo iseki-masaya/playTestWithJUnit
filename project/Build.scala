@@ -11,6 +11,7 @@ object ApplicationBuild extends Build {
 
     val appDependencies = Seq(
       // Add your project dependencies here,
+      "com.novocode"  % "junit-interface" % "0.10-M2"
     )
 
     val main = PlayProject(appName, appVersion, appDependencies, mainLang = SCALA, settings=s).settings(
