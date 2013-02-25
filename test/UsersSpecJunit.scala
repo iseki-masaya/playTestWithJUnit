@@ -6,7 +6,8 @@ import Assert._
 import models._
 
 class UserSpecJunit {
-	@Test def UsersModelHasKey() {
+	@Test
+	def UsersModelHasKey() {
 		val users = Users.get()
 		users.map { user =>
 			val key = user.keys
