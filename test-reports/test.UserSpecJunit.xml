@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<testSuite tests="1" name="test.UserSpecJunit" failures="0" timestamp="2013-02-26T03:41:01+0900" time="0" errors="0">
+          <properties></properties>
+        <testcase name="test.UserSpecJunit.UsersModelHasKey" time="0" classname="test.UserSpecJunit">
+              
+            </testcase>
+        <system-out></system-out>
+        <system-err></system-err>
+      </testSuite>
